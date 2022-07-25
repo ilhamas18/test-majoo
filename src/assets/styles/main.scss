@@ -1,0 +1,29 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+// FONTS
+@font-face {
+  font-family: 'Museo-Light';
+  src: url("../fonts/Museo-Sans/MuseoSans-100.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Museo';
+  src: url("../fonts/Museo-Sans/MuseoSans-300.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Museo-Medium';
+  src: url("../fonts/Museo-Sans/MuseoSans_500.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Museo-Bold';
+  src: url("../fonts/Museo-Sans/MuseoSans_700.otf") format("truetype");
+}
+
+// TEMPLATE
+@import "../../template/card/card";
+
+// COMPONENTS
+@import "../../components/global/header/header";
+@import "../../components/global/layout/layout";
+@import "../../components/home/home";

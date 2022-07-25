@@ -1,0 +1,13 @@
+.home {
+  &.active {
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+  }
+}
+
+.detail-card {
+  &.active {
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+  }
+}
